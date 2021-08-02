@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda CBR</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a93283ceaa.js" crossorigin="anonymous"></script>
+    <style>
+        /* Font */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&:display=swap');
+
+        /* Common Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFFFFF;
+            margin: 0px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="container-fluid" style="background-color: #264653">
+        <!-- Large Device Navbar -->
+        <nav class="container navbar navbar-expand-lg navbar-light d-none d-sm-block px-0 pt-3 pb-5">
+            <div>
+                <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary"
+                        style="background-color: #E76F51; border: none; width: 80px;">Login
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Small Device Navbar -->
+        <nav class="container d-block d-sm-none mb-4 pt-3">
+            <div class=" position-relative text-white">
+                <i class="position-absolute top-0 end-0 fas fa-bars"></i>
+            </div>
+        </nav>
+        <!-- Honda Content -->
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 d-flex align-items-center">
+                    <div class="text-white">
+                        <p class="my-2" style="font-size: 14px; font-weight: 300">Computer-controlled digital
+                            transistorized with
+                            electronic advance</p>
+                        <h1 class="mb-4" ; style="font-weight: 900">Honda CBR 300R</h1>
+                        <p style="font-size: 16px; font-weight: 300; color: #E0E0E0;">The 249.5 cc 15.23 cu in) CBR250R
+                            was made from 2011 to 2013 for all Honda markets except Japan and Malaysia, where production
+                            continued after 2013. Originally intended primarily for the Thai and Indian markets, the
+                            250R was sold worldwide, including in developed countries in Europe, North America and
+                            elsewhere.</p>
+                        <button type="button" class="btn btn-primary mb-5" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop"
+                            style="background-color: #E76F51; border: none; width: 130px">
+                            Purchase
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel" style="color: #E76F51">Want
+                                            to buy Honda CBR 300R!</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="color: #0e0d0d86;">The CBR250R closely follows the style of the
+                                            VFR1200F, notable for its Y-shaped headlight and prominent middle cowl,
+                                            which creates a layered look. This new direction in Honda design debuted at
+                                            Intermot in 2008 with the V4 Concept Model, and the 2008 CBR1000RR
+                                            Fireblade.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                            style="background-color: #E76F51; border: none; width: 80px;">Accept
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xs-12 pb-5">
+                    <img src="images/header-bike.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Feature Bike -->
+        <section class="container my-5">
+            <div class="d-flex flex-column">
+                <h1 class="text-center mt-5" style="font-size: 48px; font-weight: bold;">Featured Bikes 2021</h1>
+                <p class="text-center mb-0" style="color: #E76F51">Best Bike Collection</p>
+                <span class="d-flex justify-content-center">
+                    <hr style="width: 50px; color: #E76F51" class="mt-0 mb-5">
+                </span>
+            </div>
+            <div class="row row-cols-1 row-cols-lg-3 g-4" style="margin-top: 40px">
+                <div class="col">
+                    <img style="filter: grayscale(1)" class="img-fluid mx-auto d-block" src="images/feature-bike.jpg"
+                        alt="">
+                </div>
+                <div class="col">
+                    <img src="images/feature-bike.jpg" class="img-fluid mx-auto d-block" alt="">
+                </div>
+                <div class="col">
+                    <img style="filter: grayscale(1)" class="img-fluid mx-auto d-block" src="images/feature-bike.jpg"
+                        alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Latest News -->
+        <section class="container" style="margin-top: 165px">
+            <h1 class="text-center my-5" style="font-size: 48px; font-weight: bold;">Latest News</h1>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100 p-3 shadow-sm rounded-3 border-1">
+                        <img src="images/bike-1.png" style="margin-bottom: 40px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pb-3" style="font-size: 24px; font-weight: bold;">Ducati XDIAVEL
+                                S-73</h5>
+                            <p class="card-text" style="font-size: 16px; color: #0e0d0d86; font-weight: normal">XDiavel,
+                                the Ducati cruiser that combines the best of both worlds, is renewed, still remaining
+                                true to its philosophy. The new sports version, the Black Star, and the matt black total
+                                look version, the XDiavel Dark, further enhance the
+                                strengths of the XDiavel.</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary"
+                                style="background-color: #E76F51; border: none; width: 120px; height: 50px;">Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-3 mb-5 shadow-sm rounded-3 border-1">
+                        <img src="images/bike-2.png" style="margin-bottom: 40px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pb-3" style="font-size: 24px; font-weight: bold;">Motorcycle &
+                                Scooter
+                            </h5>
+                            <p class="card-text" style="font-size: 16px; color: #0e0d0d86; font-weight: normal">Scooters
+                                are powered by a small engine that provides all of the propulsion, with displacement
+                                ranging from 50cc to 250cc. Scooters typically operate on small 10-inch wheels and uses
+                                an electrical charging system, which powers the lights and ignition system and
+                                replenishes the battery.</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary"
+                                style="background-color: #E76F51; border: none; width: 120px; height: 50px;">Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 p-3 mb-5 shadow-sm rounded-3 border-1">
+                        <img src="images/bike-3.png" style="margin-bottom: 40px" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title pb-3" style="font-size: 24px; font-weight: bold;">2021 Honda CBR500R
+                            </h5>
+                            <p class="card-text" style="font-size: 16px; color: #0e0d0d86; font-weight: normal">The
+                                CBR500R is a sporty motorcycle that actually sports a lot of beginner features along
+                                with some good power and performance figures. For example, it has plenty of legroom,
+                                which is great for riders of any body type.</p>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-primary"
+                                style="background-color: #E76F51; border: none; width: 120px; height: 50px;">Read More
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Happy Clients Says -->
+        <section class="container" style="margin-top: 165px">
+            <h1 class="text-center mb-5" style="font-size: 48px; font-weight: bold;">Happy <span
+                    style="color: #E76F51">Clients Says</span></h1>
+            <div class="row row-cols-1 row-cols-lg-3 g-4 mt-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-1.png" class="card-img-top mx-auto mt-5" style="width:149px" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center mt-3"
+                                style="font-size: 16px; color: #0e0d0d86; font-weight: normal">Feedback is a gift. Ideas
+                                are the currency of our next success. Let people see you value both feedback and ideas.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="text-center mb-3" style="color: #E76F51">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h6 class="text-center mb-3" style="color: #23A6F0">Jonas Kahnwald</h6>
+                            <h6 class="text-center mb-5">Engineer</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-2.png" class="card-img-top mx-auto mt-5" style="width:149px" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center mt-3"
+                                style="font-size: 16px; color: #0e0d0d86; font-weight: normal">What is the shortest word
+                                in the English language that contains the letters: abcdef? Answer: feedback. Don’t
+                                forget that feedback is one of the essential elements of good communication.</p>
+                        </div>
+                        <div>
+                            <div class="text-center mb-3" style="color: #E76F51">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h6 class="text-center mb-3" style="color: #23A6F0">Martha Nielsen</h6>
+                            <h6 class="text-center mb-5">Doctor</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/user-3.png" class="card-img-top mx-auto mt-5" style="width:149px" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center mt-3"
+                                style="font-size: 16px; color: #0e0d0d86; font-weight: normal">Criticism may not be
+                                agreeable, but it is necessary. It fulfils the same function as pain in the human body.
+                                It calls attention to an unhealthy state of things.</p>
+                        </div>
+                        <div>
+                            <div class="text-center mb-3" style="color: #E76F51">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <h6 class="text-center mb-3" style="color: #23A6F0">Hannah Kahnwald</h6>
+                            <h6 class="text-center mb-5">Lawyer</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Frequently Asked Questions -->
+        <section class="container" style="margin-top: 165px">
+            <h1 class="text-center mb-5" style="font-size: 48px; font-weight: bold;">Frequently Asked<span
+                    style="color: #E76F51"> Questions</span></h1>
+            <div class="row row-cols-1 row-cols-lg-2 g-4 mt-5">
+                <div class="col">
+                    <img src="images/faq.png" class="img-fluid" style="width: 431px; height: 423px;" alt="">
+                </div>
+                <div class="col">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item mb-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne" style="font-size: 20px;">
+                                <button class=" accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <span style="font-size: 15px; color: #0e0d0d86; font-weight: normal">Safety First!
+                                        Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-top mb-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    How can I tell if my helmet is old and I need a new one?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <span style="font-size: 15px; color: #0e0d0d86; font-weight: normal">Wearing a
+                                        helmet is the single most effective way of reducing head injuries
+                                        and fatali- ties resulting from motorcycle and bicycle crashes. Motorcyclists
+                                        who do not wear helmets are at a much higher risk of sustaining head injuries
+                                        and from dying from these injuries.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-top mb-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <span style="font-size: 15px; color: #0e0d0d86; font-weight: normal">
+                                        SafeRide is a free transportation service for University of Arizona affiliates.
+                                        Since 1981, SafeRide has provided a nighttime alternative to walking alone on
+                                        campus and in the Tucson community.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-top mb-2">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    <span style="font-size: 15px; color: #0e0d0d86; font-weight: normal">
+                                        What is a Good Neutral Position on a Road Bike? A good neutral riding position
+                                        starts with the head and goes all the way to your feet. On long rides, check in
+                                        occasionally with your body position to make sure you haven't drifted back into
+                                        bad habits. Relax your shoulders and bring them down, away from your ears.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Carousel -->
+        <section class="container" style="margin-top: 165px">
+            <h1 class="text-center mb-5" style="font-size: 48px; font-weight: bold;">More<span style="color: #E76F51">
+                    Specification</span></h1>
+            <div class="container rounded-3">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <h1 class="mb-5" style="font-size: 28px; font-weight: bold;">Ducati XDIAVEL S-73
+                                    </h1>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Power</span></p>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 47%;"
+                                            aria-valuenow="47" aria-valuemin="0" aria-valuemax="100">47%</div>
+                                    </div>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Torque</span></p>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 78%;"
+                                            aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">78%</div>
+                                    </div>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Mileage</span></p>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar" role="progressbar" style="width: 62%;"
+                                            aria-valuenow="62" aria-valuemin="0" aria-valuemax="100">62%</div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mb-3"
+                                        style="background-color: #E76F51; border: none; width: 120px; height: 50px;">View
+                                        More
+                                    </button>
+                                </div>
+                                <div class="col-lg-5">
+                                    <img src="images/bike-1.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <h1 class="mb-5" style="font-size: 28px; font-weight: bold;">Ducati XDIAVEL S-73
+                                    </h1>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Power</span></p>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 56%;"
+                                            aria-valuenow="56" aria-valuemin="0" aria-valuemax="100">56%</div>
+                                    </div>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Torque</span></p>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 63%;"
+                                            aria-valuenow="63" aria-valuemin="0" aria-valuemax="100">63%</div>
+                                    </div>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Mileage</span></p>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar" role="progressbar" style="width: 82%;"
+                                            aria-valuenow="82" aria-valuemin="0" aria-valuemax="100">82%</div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mb-3"
+                                        style="background-color: #E76F51; border: none; width: 120px; height: 50px;">View
+                                        More
+                                    </button>
+                                </div>
+                                <div class="col-lg-5">
+                                    <img src="images/bike-2.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <h1 class="mb-5" style="font-size: 28px; font-weight: bold;">Ducati XDIAVEL S-73
+                                    </h1>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Power</span></p>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 77%;"
+                                            aria-valuenow="77" aria-valuemin="0" aria-valuemax="100">77%</div>
+                                    </div>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Torque</span></p>
+                                    <div class="progress mb-3">
+                                        <div class="progress-bar" role="progressbar" style="width: 52%;"
+                                            aria-valuenow="52" aria-valuemin="0" aria-valuemax="100">52%</div>
+                                    </div>
+                                    <p class="mb-0">Max <span style="color: #E76F51">
+                                            Mileage</span></p>
+                                    <div class="progress mb-4">
+                                        <div class="progress-bar" role="progressbar" style="width: 68%;"
+                                            aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">68%</div>
+                                    </div>
+                                    <button type="button" class="btn btn-primary mb-3"
+                                        style="background-color: #E76F51; border: none; width: 120px; height: 50px;">View
+                                        More
+                                    </button>
+                                </div>
+                                <div class="col-lg-5">
+                                    <img src="images/bike-3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscribe & Alerts -->
+        <section class="container" style="margin-top: 165px">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 g-4">
+                    <div class="col">
+                        <h2 class="mb-3" style="font-size: 48px; font-weight: bold; color: #E76F51">Subscribe
+                        </h2>
+                        <form class="w-75">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="example: jonas@gmail.com">
+                                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">Mobile Number</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder="+880123456789">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="button" class="btn btn-primary mt-3"
+                                style="background-color: #E76F51; border: none; width: 120px;">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <h2 class="mb-3 text-danger text-center" style="font-size: 48px; font-weight: bold;">Bike Safety
+                        </h2>
+                        <div class="alert alert-success">
+                            Perform a <strong>safety check</strong> on your bike.
+                        </div>
+                        <div class="alert alert-info">
+                            Know the <strong>Rules</strong> of the road.
+                        </div>
+                        <div class="alert alert-warning">
+                            Always ride with <strong>Lights</strong>, day or night.
+                        </div>
+                        <div class="alert alert-danger">
+                            Always ride with a <strong>Helmet</strong>.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="container-fluid" style="background-color: #0B0D17; margin-top:50px">
+        <div class="container">
+            <div class="container row row-cols-1 row-cols-lg-2">
+                <div class="col mt-5">
+                    <div class="mb-3">
+                        <a href="#" class="text-decoration-none text-white pe-3">Download Now</a>
+                        <a href="#" class="text-decoration-none text-white">License</a>
+                    </div>
+                    <div class="d-inline-flex flex-wrap">
+                        <a href="#" class="text-decoration-none pe-3 text-white">About</a>
+                        <a href="#" class="text-decoration-none pe-3 text-white">Features</a>
+                        <a href="#" class="text-decoration-none pe-3 text-white">Pricing</a>
+                        <a href="#" class="text-decoration-none pe-3 text-white">careers</a>
+                        <a href="#" class="text-decoration-none pe-3 text-white">Help</a>
+                        <a href="#" class="text-decoration-none text-white">Privacy Policy</a>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-white">&copy 2020 bike. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="col mt-5">
+                    <div class="d-flex justify-content-end">
+                        <div class="d-flex flex-column">
+                            <h6 class="text-white text-center">Get The App</h6>
+                            <img class="img-fluid" style="width: 150px;" src="images/app-store.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="styles/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
